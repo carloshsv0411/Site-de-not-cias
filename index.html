@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechNews</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>TechNews</h1>
+            <p>Notícias de tecnologia e inovação</p>
+        </div>
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#noticias">Notícias</a>
+            <a href="#tecnologia">Mais</a>
+        </nav>
+    </header>
+    <main id="inicio">
+        <section class="destaque">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXEBV-G4eYUbbwExmXX7CGtQlekkb2yDIy6LGvUFaMLQ&s=10" alt="GPT-6 Astra">
+            <div class="destaque-texto">
+                <span class="categoria">INTELIGÊNCIA ARTIFICIAL </span>
+                <h2> GPT-6 Astra é lançado pela OpenAI e promete uma nova geração da inteligência artificial </h2>
+                <p> Novo modelo de inteligência artificial chega com avanços em programação, ciência, uso de computadores e tarefas profissionais.</p>
+                <button onclick="mostrarNoticia()"> Ler notícia </button>
+            </div>
+        </section>
+        <section id="noticias">
+            <h2 class="titulo-secao"> Últimas notícias</h2>
+            <div class="noticias-container">
+                <article class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQGQfaM0GUH7A_XTXjEOVjjCCmEVc5ZwjnoO0EtCRnIQ&s=10" alt="Tecnologia">
+                    <div class="card-conteudo">
+                        <span class="categoria"> TECNOLOGIA </span>
+                        <h3> Novas tecnologias começam a transformar o mercado de trabalho </h3>
+                        <p> Empresas apostam cada vez mais em soluções digitais para melhorar seus processos. </p>
+                        <button onclick="mostrarMensagem()">  Ver mais </button>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfTLKspT36rp4qxtNL530de77vhjzuv3VXQMb9H3SbRw&s=10" alt="Inteligência Artificial">
+                    <div class="card-conteudo">
+                        <span class="categoria">INTELIGÊNCIA ARTIFICIAL  </span>
+                        <h3> Inteligência artificial ganha espaço entre desenvolvedores</h3>
+                        <p> Ferramentas de IA estão mudando a forma como softwares são criados. </p>
+                        <button onclick="mostrarMensagem()"> Ver mais </button>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrGYDdGtjGprMoc4Tajw2I0phM8i0TsLIZW8IAM6Wr4Q&s=10" alt="Games">
+                    <div class="card-conteudo">
+                        <span class="categoria"> GAMES </span>
+                        <h3> Nova geração de games aposta em gráficos ainda mais realistas
+                        </h3>
+                        <p> Desenvolvedoras apresentam tecnologias que prometem melhorar a experiência dos jogadores. </p>
+                        <button onclick="mostrarMensagem()"> Ver mais </button>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRVIc256UB4FTWomb4jnEi3HCAw8xLNQojMtDtScYgCg&s=10" alt="Segurança digital">
+                    <div class="card-conteudo">
+                        <span class="categoria"> SEGURANÇA </span>
+                        <h3>Segurança digital se torna prioridade para empresas </h3>
+                        <p> Companhias aumentam investimentos para proteger dados e informações. </p>
+                        <button onclick="mostrarMensagem()"> Ver mais </button>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY-SDpYOt1XzADbhquDEBNCiU7sL-hVCtBrE0vhEaWdw&s=10" alt="Hardware">
+                    <div class="card-conteudo">
+                        <span class="categoria"> HARDWARE </span>
+                        <h3> Nova geração de chips promete acelerar aplicações de IA </h3>
+                        <p> Fabricantes apresentam processadores desenvolvidos especialmente para inteligência artificial. </p>
+                        <button onclick="mostrarMensagem()"> Ver mais </button>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeCtb2LFXQiMuZX7Xpk2M8aSOA53ASaDRNXtTj1nsNMA&s=10" alt="Ciência e tecnologia">
+                    <div class="card-conteudo">
+                        <span class="categoria"> CIÊNCIA </span>
+                        <h3> Pesquisadores usam IA para acelerar novas descobertas </h3>
+                        <p> Cientistas estão utilizando inteligência artificial em diferentes áreas de pesquisa. </p>
+                        <button onclick="mostrarMensagem()"> Ver mais </button>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section id="tecnologia">
+            <h2 class="titulo-secao"> Mais comentados </h2>
+            <div class="lista-famosos">
+                <div>
+                    <strong>1</strong>
+                    <p> GPT-6 Astra chama atenção após lançamento da OpenAI </p>
+                </div>
+                <div>
+                    <strong>2</strong>
+                    <p>Inteligência artificial muda a rotina de desenvolvedores </p>
+                </div>
+                <div>
+                    <strong>3</strong>
+                    <p> Nova geração de chips promete avanços para a inteligência artificial </p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h2>
+            TechNews
+        </h2>
+        <p> Notícias, tecnologia, inovação e inteligência artificial.</p>
+        <p> © 2026 TechNews </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
